@@ -1,0 +1,14 @@
+From: "Acme Billing" <billing@acme.example>
+Reply-To: billing@acme.example
+Return-Path: <billing@acme.example>
+To: customer@yourorg.example
+Subject: Your March receipt from Acme
+Authentication-Results: mx.yourorg.example; spf=pass smtp.mailfrom=acme.example;
+ dkim=pass header.d=acme.example; dmarc=pass header.from=acme.example
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+
+<html><body>
+<p>Thanks for your payment. View your receipt any time in your account.</p>
+<p><a href="https://acme.example/receipts">https://acme.example/receipts</a></p>
+</body></html>

@@ -1,0 +1,26 @@
+From: "IT Support - microsoft.com" <no-reply@account-security.invalid>
+Reply-To: helpdesk@totally-different-domain.invalid
+Return-Path: <bounce@mailer.invalid>
+To: staff@yourorg.example
+Subject: URGENT: Your account will be suspended in 24 hours - verify now
+Authentication-Results: mx.yourorg.example; spf=fail smtp.mailfrom=mailer.invalid;
+ dkim=fail; dmarc=fail header.from=account-security.invalid
+Content-Type: multipart/mixed; boundary="b1"
+MIME-Version: 1.0
+
+--b1
+Content-Type: text/html; charset="utf-8"
+
+<html><body>
+<p>Dear user, your mailbox is full. Verify immediately or lose access.</p>
+<p>Click here: <a href="http://192.0.2.10/verify/login">https://login.microsoft.com/secure</a></p>
+<p>Backup link: <a href="https://bit.ly/3xample">reset your password</a></p>
+</body></html>
+
+--b1
+Content-Type: application/octet-stream; name="invoice_scan.exe"
+Content-Disposition: attachment; filename="invoice_scan.exe"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAI
+--b1--
